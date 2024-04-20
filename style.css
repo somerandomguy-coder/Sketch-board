@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.toolbar.container {
+    width: 20vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    position: fixed;
+}
+
+.container > * {
+    text-align: center;
+}
+
+input {
+    width: 3rem;
+}
+
+.board {
+    flex-direction: column;
+    width: 700px;
+    height: 700px;
+}
+
+.row {
+    display: flex; 
+    flex: 1 1 auto;
+}
+
+.block {
+    background-color: beige;
+    flex: 1 1 auto;
+}
+
+.colorInput {
+    width: 100%;
+    height: 50px;
+}
